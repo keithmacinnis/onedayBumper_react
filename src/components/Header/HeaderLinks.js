@@ -13,7 +13,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
 import { Apps, CloudDownload } from "@material-ui/icons";
-
+import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
@@ -27,36 +27,16 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="Components"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent",
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
-            </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>,
-          ]}
-        />
+       
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+          href="#quote"
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <ThumbUpIcon className={classes.icons} />Free Quote
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -65,7 +45,7 @@ export default function HeaderLinks(props) {
             <DeleteIcon />
           </IconButton>
         </Tooltip>*/}
-        <Tooltip
+        {/* <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
           placement={window.innerWidth > 959 ? "top" : "left"}
@@ -79,7 +59,7 @@ export default function HeaderLinks(props) {
           >
             <i className={classes.socialIcons + " fab fa-twitter"} />
           </Button>
-        </Tooltip>
+        </Tooltip> */}
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip

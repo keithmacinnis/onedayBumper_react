@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="Material Kit React"
+        brand="Call or Text 437-9BUMPER (437-928-6737)"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -48,15 +48,13 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/bg4.jpg").default}>
+      <Parallax image = { require("assets/img/tory-bishop-vY-WNTNfXR0-unsplash.jpg").default }>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Material Kit React.</h1>
-                <h3 className={classes.subtitle}>
-                  A Badass Material-UI Kit based on Material Design.
-                </h3>
+                <h1 className={classes.title}>1 Day Bumper</h1>
+                <h3 className={classes.subtitle}>Proudly serving the Toronto and Greater Toronto Area.</h3>
               </div>
             </GridItem>
           </GridContainer>
