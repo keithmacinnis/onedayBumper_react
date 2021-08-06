@@ -9,7 +9,6 @@ import { List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
 
 import styles from "assets/jss/material-kit-react/components/footerStyle.js";
 
@@ -33,53 +32,37 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/?ref=mkr-footer"
+                href="https://www.wikihow.com/Find-Your-VIN-%28Vehicle-Identification-Number%29"
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                Find Your Vin
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation?ref=mkr-footer"
+                href=""
                 className={classes.block}
                 target="_blank"
               >
-                About us
+                Email us
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://blog.creative-tim.com/?ref=mkr-footer"
+                href="#quote"
                 className={classes.block}
-                target="_blank"
+                target="_self"
               >
-                Blog
+                Get a Quote
               </a>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
-            </ListItem>
+  
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
-            className={aClasses}
-            target="_blank"
-          >
-            Creative Tim
-          </a>{" "}
-          for a better web.
+          <small>Privacy: 1 Day Bumper does not distribute personal information that is provided through our website (https://www.1DayBumper.com). We keep all information confidential; we do not solicit, send junk email or sell contact info to mailing sites. Any information you send us is strictly received and protected for internal use only. As you browse 1 Day Bumper, advertising cookies will be placed on your computer so that we can understand what you are interested in. Our display advertising partners, then enable us to present you with retargeting advertising on other sites based on your previous interaction with https://www.1DayBumper.ca. The techniques our partners employ do not collect personal information such as your name, email address, postal address, or telephone number.
+          </small>
         </div>
       </div>
     </footer>

@@ -13,7 +13,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
 import { Apps, CloudDownload } from "@material-ui/icons";
-import ThumbUpIcon from '@material-ui/icons/ThumbUp';
+import ThumbUpIcon from '@material-ui/icons/Telegram';
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
@@ -70,7 +70,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="https://www.facebook.com"
             target="_blank"
             className={classes.navLink}
           >
@@ -87,7 +87,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://www.instagram.com/"
             target="_blank"
             className={classes.navLink}
           >

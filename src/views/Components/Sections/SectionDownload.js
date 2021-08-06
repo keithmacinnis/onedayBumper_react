@@ -18,88 +18,49 @@ export default function SectionDownload() {
       <div className={classes.container}>
         <GridContainer className={classes.textCenter} justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2>Do you love this UI Kit?</h2>
+            <h2>Do you love your car?</h2>
             <h4>
-              Cause if you do, it can be yours for FREE. Hit the buttons below
-              to navigate to our website where you can find the kit. We also
-              have the Bootstrap 4 version on plain HTML. Start a new project or
-              give an old Bootstrap project a new look!
+              Cause your car will love you! 
+              1 Day Bumper takes the hassle out of car repair!
+              From minor to major car damages, we offer stress-free, door-to-door pick-up and delivery.
+              Proudly serving the Toronto and Greater Toronto Area.
+              Contact us for a free, no obligation quote today.
             </h4>
           </GridItem>
           <GridItem xs={12} sm={8} md={6}>
             <Button
               color="primary"
               size="lg"
-              href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-download-section"
-              target="_blank"
+              href="#quote"
+              target="_self"
             >
-              Free React Download
+              Free Quote Tool
             </Button>
-            <Button
-              color="primary"
-              size="lg"
-              href="https://www.creative-tim.com/product/material-kit?ref=mkr-download-section"
-              target="_blank"
-            >
-              Free HTML Downoad
-            </Button>
+          
           </GridItem>
         </GridContainer>
         <br />
         <br />
         <GridContainer className={classes.textCenter} justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2>Want more?</h2>
+            <h2>Need help?</h2>
             <h4>
-              We{"'"}ve launched{" "}
-              <a
-                href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkr-download-section"
-                target="_blank"
-              >
-                Material Kit PRO React{" "}
-              </a>
-              .It has a huge number of components, sections and example pages.
-              Start Your Development With A Badass Material-UI nspired by
-              Material Design.
+              We are happy to take any questions you have! <br/> Please txt or call us at 1-437-9BUMPER (1 437 928 6737) 
+              <br></br><br></br>Looking for your VIN? We have the guide just for you!
             </h4>
           </GridItem>
           <GridItem xs={12} sm={8} md={6}>
             <Button
               color="rose"
               size="lg"
-              href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkr-download-section"
+              href="https://www.wikihow.com/Find-Your-VIN-%28Vehicle-Identification-Number%29"
               target="_blank"
             >
-              Material Kit PRO
-            </Button>
-            <Button
-              color="rose"
-              size="lg"
-              href="https://www.creative-tim.com/product/material-dashboard-pro-react?ref=mkr-download-section"
-              target="_blank"
-            >
-              Material Dashboard PRO
+              Finding Your VIN Guide
             </Button>
           </GridItem>
         </GridContainer>
-        <div className={classes.textCenter + " " + classes.sharingArea}>
-          <GridContainer justify="center">
-            <h3>Thank you for supporting us!</h3>
-          </GridContainer>
-          <Button color="twitter">
-            <i className={classes.socials + " fab fa-twitter"} /> Tweet
-          </Button>
-          <Button color="facebook">
-            <i className={classes.socials + " fab fa-facebook-square"} /> Share
-          </Button>
-          <Button color="google">
-            <i className={classes.socials + " fab fa-google-plus-g"} />
-            Share
-          </Button>
-          <Button color="github">
-            <i className={classes.socials + " fab fa-github"} /> Star
-          </Button>
-        </div>
+        
       </div>
     </div>
   );
