@@ -27,7 +27,6 @@ import SectionTabs from "./Sections/SectionTabs.js";
 import SectionLogin from "./Sections/SectionLogin.js";
 // import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
-
 import styles from "assets/jss/material-kit-react/views/components.js";
 
 const useStyles = makeStyles(styles);
@@ -37,6 +36,7 @@ export default function Components(props) {
   const { ...rest } = props;
   return (
     <div>
+    
       <Header
         brand="Call or Text 437-9BUMPER (437-928-6737)"
         rightLinks={<HeaderLinks />}

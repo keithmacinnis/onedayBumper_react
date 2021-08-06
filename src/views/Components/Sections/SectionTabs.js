@@ -13,6 +13,7 @@ import GridItem from "components/Grid/GridItem.js";
 import CustomTabs from "components/CustomTabs/CustomTabs.js";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/tabsStyle.js";
+import logo from "assets/img/1DB-Logo-RGB.png";
 
 const useStyles = makeStyles(styles);
 
@@ -22,6 +23,8 @@ export default function SectionTabs() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div id="nav-tabs">
+        <p className={classes.TextCenter}>
+        <img height="100px" src={logo}></img></p>
           <h3>To have your damage assessed by one of our trained professionals, please choose one of the options:</h3>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
