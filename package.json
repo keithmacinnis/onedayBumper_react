@@ -1,6 +1,7 @@
 {
   "name": "material-kit-react",
   "version": "1.10.0",
+  "homepage": "https://onedaybump.herokuapp.com/"
   "description": "Material Kit React. Coded by Creative Tim",
   "private": true,
   "main": "src/index.js",
